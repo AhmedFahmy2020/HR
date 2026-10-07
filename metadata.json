@@ -1,0 +1,6 @@
+{
+  "name": "Kore HR: People & Operations Platform",
+  "description": "Comprehensive enterprise HRMS for workforce directory, attendance tracking, leave requests, payroll processing, talent acquisition ATS, and performance management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

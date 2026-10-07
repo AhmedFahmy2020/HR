@@ -10,10 +10,14 @@ import {
 } from '../types/hr';
 
 // Generated authentic portraits
-export const AVATAR_SARAH = '/src/assets/images/avatar_sarah_hr_1791045629485.jpg';
-export const AVATAR_MARCUS = '/src/assets/images/avatar_marcus_dev_1791045641648.jpg';
-export const AVATAR_ELENA = '/src/assets/images/avatar_elena_design_1791045652515.jpg';
-export const AVATAR_DAVID = '/src/assets/images/avatar_david_exec_1791045662660.jpg';
+import avatarSarah from '../assets/images/avatar_sarah_hr_1791045629485.jpg';
+export const AVATAR_SARAH = avatarSarah;
+import avatarMarcus from '../assets/images/avatar_marcus_dev_1791045641648.jpg';
+export const AVATAR_MARCUS = avatarMarcus;
+import avatarElena from '../assets/images/avatar_elena_design_1791045652515.jpg';
+export const AVATAR_ELENA = avatarElena;
+import avatarDavid from '../assets/images/avatar_david_exec_1791045662660.jpg';
+export const AVATAR_DAVID = avatarDavid;
 
 export const INITIAL_EMPLOYEES: Employee[] = [
   {

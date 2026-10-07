@@ -16,6 +16,7 @@ import {
 } from 'lucide-react';
 import { NavTab } from '../layout/Sidebar';
 import { formatMoney } from '../../utils/format';
+import { AVATAR_DAVID, AVATAR_ELENA, AVATAR_SARAH } from '../../data/initialData';
 
 interface OverviewDashboardProps {
   onNavigate: (tab: NavTab) => void;
@@ -498,7 +499,7 @@ export const OverviewDashboard: React.FC<OverviewDashboardProps> = ({
           <div className="space-y-3 text-xs">
             <div className="flex items-center justify-between p-3 bg-neutral-50 rounded-lg border border-neutral-200/70">
               <div className="flex items-center gap-3">
-                <Avatar name="David Sterling" size="sm" src="/src/assets/images/avatar_david_exec_1791045662660.jpg" />
+                <Avatar name="David Sterling" size="sm" src={AVATAR_DAVID} />
                 <div>
                   <span className="font-semibold text-neutral-900">David Sterling</span>
                   <p className="text-neutral-500">6 Year Work Anniversary</p>
@@ -509,7 +510,7 @@ export const OverviewDashboard: React.FC<OverviewDashboardProps> = ({
 
             <div className="flex items-center justify-between p-3 bg-neutral-50 rounded-lg border border-neutral-200/70">
               <div className="flex items-center gap-3">
-                <Avatar name="Elena Rostova" size="sm" src="/src/assets/images/avatar_elena_design_1791045652515.jpg" />
+                <Avatar name="Elena Rostova" size="sm" src={AVATAR_ELENA} />
                 <div>
                   <span className="font-semibold text-neutral-900">Elena Rostova</span>
                   <p className="text-neutral-500">3 Year Work Anniversary</p>
@@ -520,7 +521,7 @@ export const OverviewDashboard: React.FC<OverviewDashboardProps> = ({
 
             <div className="flex items-center justify-between p-3 bg-neutral-50 rounded-lg border border-neutral-200/70">
               <div className="flex items-center gap-3">
-                <Avatar name="Sarah Jenkins" size="sm" src="/src/assets/images/avatar_sarah_hr_1791045629485.jpg" />
+                <Avatar name="Sarah Jenkins" size="sm" src={AVATAR_SARAH} />
                 <div>
                   <span className="font-semibold text-neutral-900">Sarah Jenkins</span>
                   <p className="text-neutral-500">4 Year Work Anniversary</p>
